@@ -25,7 +25,7 @@ export default function Footer() {
 
           {/* BRAND */}
           <div>
-            <h2 className="text-2xl font-bold tracking-wide">RYDEX</h2>
+            <h2 className="text-2xl font-bold tracking-wide">RIDEX</h2>
             <p className="mt-4 text-gray-400 text-sm leading-relaxed">
               Book any vehicle — from bikes to trucks.  
               Trusted owners. Transparent pricing.
@@ -115,7 +115,7 @@ export default function Footer() {
       {/* BOTTOM BAR */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
-          <p>© {new Date().getFullYear()} RYDEX. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} RIDEX. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/" className="hover:text-white transition">
               Privacy Policy

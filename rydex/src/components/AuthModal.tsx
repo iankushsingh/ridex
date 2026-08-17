@@ -120,7 +120,7 @@ export default function AuthModal({ open, onClose }: Props) {
               {/* LOGO */}
               <div className="mb-6 text-center">
                 <h1 className="text-3xl font-extrabold tracking-widest">
-                  RYDEX
+                  RIDEX
                 </h1>
                 <p className="mt-1 text-xs text-gray-500">
                   Premium Vehicle Booking

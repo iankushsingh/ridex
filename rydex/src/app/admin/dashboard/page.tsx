@@ -90,7 +90,7 @@ export default function AdminDashboard() {
               R
             </div>
             <span className="font-bold text-lg tracking-wide">
-              RYDEX ADMIN
+              RIDEX ADMIN
             </span>
           </div>
 

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "dev": "npm run dev --prefix rydex",
     "build": "npm run build --prefix rydex",
     "deploy": "npx wrangler pages deploy ./rydex/.next"
   }
