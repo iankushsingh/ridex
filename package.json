@@ -2,10 +2,13 @@
   "name": "ridex-monorepo",
   "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "rydex"
+  ],
   "scripts": {
     "dev": "npm run dev --prefix rydex",
-    "build": "npm run build --prefix rydex",
-    "preview": "npm run preview --prefix rydex",
-    "deploy": "npm run deploy --prefix rydex"
+    "build": "cd rydex && npm run deploy",
+    "preview": "cd rydex && npm run preview",
+    "deploy": "cd rydex && npm run deploy"
   }
 }
