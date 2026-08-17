@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "dev": "npm run dev --prefix rydex",
-    "build": "cd rydex && npm run deploy",
+    "build": "npm run build --prefix rydex",
     "preview": "cd rydex && npm run preview",
     "deploy": "cd rydex && npm run deploy"
   }
