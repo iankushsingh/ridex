@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "build": "npm run build --prefix rydex",
-    "pages:build": "npx @cloudflare/next-on-pages --prefix rydex",
-    "deploy": "npx wrangler pages deploy ./rydex/.vercel/output/static"
+    "deploy": "npx wrangler pages deploy ./rydex/.next"
   }
 }
