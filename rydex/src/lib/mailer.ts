@@ -1,18 +1,18 @@
-import nodemailer from "nodemailer"
+import nodemailer from "nodemailer";
 
-const transporter = nodemailer.createTransport({
-  service:"gmail",
-  auth: {
-    user:process.env.EMAIL,
-    pass:process.env.PASS, 
-  },
-});
+export const sendMail = async (to: string, subject: string, html: string) => {
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.PASS,
+    },
+  });
 
-export const sendMail=async (to:string,subject:string,html:string)=>{
-await transporter.sendMail({
- from:`"RIDEX" <${process.env.EMAIL}> `,
- to,
- subject,
- html
-})
-}
+  await transporter.sendMail({
+    from: `"RIDEX" <${process.env.EMAIL}>`,
+    to,
+    subject,
+    html,
+  });
+};
