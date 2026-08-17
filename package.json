@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "npm run dev --prefix rydex",
     "build": "npm run build --prefix rydex",
-    "deploy": "npx wrangler pages deploy ./rydex/.next"
+    "preview": "npm run preview --prefix rydex",
+    "deploy": "npm run deploy --prefix rydex"
   }
 }
