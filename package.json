@@ -10,6 +10,11 @@
     "build": "npm run build --prefix rydex",
     "start": "npm run start --prefix rydex"
   },
+  "dependencies": {
+    "next": "15.1.12",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
   "optionalDependencies": {
     "@tailwindcss/oxide-darwin-arm64": "^4.0.0",
     "@tailwindcss/oxide-darwin-x64": "^4.0.0",
