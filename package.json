@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "npm run dev --prefix rydex",
     "build": "npm run build --prefix rydex",
-    "preview": "cd rydex && npm run preview",
-    "deploy": "cd rydex && npm run deploy"
+    "start": "npm run start --prefix rydex"
   }
 }
